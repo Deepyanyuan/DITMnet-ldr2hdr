@@ -9,26 +9,17 @@ original HDR dataset come from online: Fairchild-HDR {http://rit-mcsl.org/fairch
 
 pipeline:
 
-step 0: generate training pairs by generate_train_pairs.py
+step 0: generate training pairs by "generate_data.py" or "generate_data_v1.py"
 
-step 1: create network, in this paper, we create a multi-branch and multi-ouput CNNs network, detail in network.py
+step 1: create network, in this paper, we create a multi-branch and multi-ouput CNNs network, detail in "src/archs.py"
 
-step 2: train this network by HybridNet_train.py. Note that in this paper, we use three datasets, the first two had been training and the last dataset (Funt-HDR) had no training.
+step 2: train this network by "main.py". model type=0
+Note that in this paper, we use two datasets, the first had been training and the last dataset (Funt-HDR) had no training.
 
-step 3: test this network by HybridNet_test.py.
+step 3: test this network by "main.py". model type=1
 
-step 4: predict the results if input any LDR image by HybridNet_predict.py
+step 4: predict the results by "main.py". model type=2
 
 step 5: performance comparison by Matlab code
 
 
-2019-9-01 
-
-supplement
-
-Added a complete datasets and pre-trained parameters, linked as follows
-
-linked：https://pan.baidu.com/s/18Ho7er1eF8YMKNDfPPiRFQ 
-Extraction code：lbbd 
-
-Note that after downloading, you need to extract all the compressed files first, the default path can be
