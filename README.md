@@ -7,20 +7,16 @@ original HDR dataset come from online: Fairchild-HDR {http://rit-mcsl.org/fairch
 
 2020-01-09
 
-我们在之前的手稿和代码基础上，又进行了进一步的调整和优化，细节如下：
 We have made further adjustments and optimizations based on the previous manuscripts and code. The details are as follows:
 
 
-1. 增加了虚拟滤光相机代码，用于模拟物理光学滤光片，具体看"generate_data.py" or "generate_data_v1.py"
 1. Added virtual filter camera code for simulating physical optical filters, see "generate_data.py" or "generate_data_v1.py"
 
 
-2. 进一步优化了网络结构的代码，使之更加清晰简练，具体看src/archs.py
-2. Further optimized the code of the network structure to make it more clear and concise, see src / archs.py
+2. Further optimized the code of the network structure to make it more clear and concise, see "src/archs.py"
 
 
-3. 集成了训练，测试，预测代码，具体看main.py
-3. Integrated training, testing, and prediction code, see main.py
+3. Integrated training, testing, and prediction code, see "main.py"
 
 
 pipeline:
