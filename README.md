@@ -3,7 +3,7 @@ ldr2hdr, fldr2hdr, optical filter, U-net
 
 DITMnet：ldr2hdr via CNNs, detail in paper 《Method for Reconstructing a High Dynamic Range Image Based on a Single-shot Filtered Low Dynamic Range Image》accepted in Optics Express
 
-original HDR dataset come from online: Fairchild-HDR {http://rit-mcsl.org/fairchild//HDRPS/HDRthumbs.html}, and Funt-HDR {https://www2.cs.sfu.ca/~colour/data/}.
+original HDR dataset come from online: Fairchild-HDR {http://rit-mcsl.org/fairchild//HDRPS/HDRthumbs.html}, Funt-HDR {https://www2.cs.sfu.ca/~colour/data/} and DML-HDR {http://dml.ece.ubc.ca/data/DML-HDR/}.
 
 2020-01-09
 
